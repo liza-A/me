@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const expressValidator = require ('express-validator');
-//const expressPinoLogger = require('express-pino-logger');
+
 const logger = require('./loggerFile/logger');
 
 const expressSession = require('express-session')({
